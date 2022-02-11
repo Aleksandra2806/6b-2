@@ -6,15 +6,18 @@
   height: 50px;
   border: solid gray 1px;
 }
-tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+tr:nth-child(odd) td:nth-child(even), 
+tr:nth-child(even) td:nth-child(odd) {
   background: black;
 }
-.chess tr:first-child td, .chess tr:last-child td {
+.chess tr:first-child td, 
+.chess tr:last-child td {
   background: aquamarine !important;
   height: 20px;
 }
 
-.chess td:first-child, .chess td:last-child {
+.chess td:first-child, 
+.chess td:last-child {
   background: aquamarine !important;
   width: 20px;
 }
